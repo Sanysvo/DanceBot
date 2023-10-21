@@ -1,4 +1,4 @@
-package com.barseg;
+package com.barseg.base;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -22,7 +22,7 @@ public class BotApplication extends Application {
         rootLayout = loader.load();
         Scene scene = new Scene(rootLayout);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("РџСЂРѕРіСЂР°РјРјР° РґР»СЏ РЈР»РёС‡РЅС‹С… РіРѕРЅРѕРє. ver: ");
+        primaryStage.setTitle("Программа для Уличных гонок. ver: ");
         primaryStage.show();
     }
 
